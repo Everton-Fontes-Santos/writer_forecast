@@ -1,0 +1,20 @@
+{
+  "name": "writer_forecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Everton-Fontes-Santos/writer_forecast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Everton-Fontes-Santos/writer_forecast/issues"
+  },
+  "homepage": "https://github.com/Everton-Fontes-Santos/writer_forecast#readme"
+}
