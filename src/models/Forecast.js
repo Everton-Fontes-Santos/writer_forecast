@@ -117,7 +117,7 @@ module.exports = class Forecast {
         }
     }
 
-    async getAllForecast(){
+    static async getAllForecast(){
         try{
             return await ForecastModel.find()
         }catch(err){

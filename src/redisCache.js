@@ -17,26 +17,8 @@ else{
         //url: process.env.REDIS_URL
     })
 }
-
 client.connect()
 
-client.on('error', err => {
-    console.log('Error ' + err);
-});
-
-async function publish(channel, value) {
-    return client.publish(channel, JSON.stringify(value));
-}
- 
-async function subscribe(channelSubscribed, callback) {
-    client.subscribe(channelSubscribed, (message, channel) => {
-        callback(message);
-    });
-}
- 
 module.exports = {
-    publish,
-    subscribe,
     client
 }
-
