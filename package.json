@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Everton-Fontes-Santos/writer_forecast/issues"
   },
-  "homepage": "https://github.com/Everton-Fontes-Santos/writer_forecast#readme"
+  "homepage": "https://github.com/Everton-Fontes-Santos/writer_forecast#readme",
+  "dependencies": {
+    "axios": "^1.2.5",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "redis": "^4.6.1",
+    "validator": "^13.7.0"
+  }
 }
